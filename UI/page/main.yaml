@@ -1,0 +1,3 @@
+- by: id
+  locator: com.baidu.searchbox:id/baidu_searchbox
+  action: click
