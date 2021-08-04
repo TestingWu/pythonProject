@@ -3,7 +3,7 @@ from selenium import webdriver
 class Base():
     def setup(self):
         self.driver = webdriver.Chrome()
-        self.drivert.maximize_window()
+        self.driver.maximize_window()
         self.driver.implicitly_wait(5)
 
     def teardown(self):
