@@ -32,3 +32,5 @@ class Base():
            --pct-motion:动作事件，比如滑动（直线）   --pct-majornav:只要导航事件，比如回退按键，菜单按键'''
 
 # java -jar appcrawler-2.4.0-jar-with-dependencies.jar
+
+# 上传到GitHub上去需要push上去： git push -u origin main

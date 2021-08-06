@@ -18,7 +18,7 @@ class TestBase:
     def test_base(self):
         self.driver.get('https://testerhome.com/')
         self.driver.find_element_by_xpath('//*[@id="main-nav-menu"]/li[3]/a').click()
-
+        '''显示等待'''
         # def wait(x):
         #     return len(self.driver.find_elements(By.XPATH, '//*[@id="hot_teams"]/div[1]/strong')) >= 1
         #
