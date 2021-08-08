@@ -11,6 +11,7 @@ class TestWindows(Base):
         '''切换页面'''
         print(self.driver.current_window_handle)  # 打印当前得窗口
         print(self.driver.window_handles)  # 打印所以得窗口
+
         windows = self.driver.window_handles
 
         self.driver.switch_to_window(windows[-1])
