@@ -14,7 +14,7 @@ class TestAlert(Base):
         action.drag_and_drop(drag, drop).perform()
 
         sleep(3)
-        print('点击alert确认')
+        print('点击alert确认')  # 弹窗处理
         self.driver.switch_to.alert.accept()
 
         self.driver.switch_to.default_content()
