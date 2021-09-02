@@ -8,5 +8,6 @@ class Main(BasePage):
         # self.find(By.ID, 'com.baidu.searchbox:id/baidu_searchbox').click()
         self.steps('../page/main.yaml')
     def goto_windows(self):
-        self._driver.find_element_by_android_uiautomator('new UiSelector().resourceId("android.widget.FrameLayout").index[2]').click()
-        self.find(By.ID, 'com.baidu.searchbox:id/baidu_searchbox').click()
+        # self._driver.find_element_by_android_uiautomator('new UiSelector().resourceId("android.widget.FrameLayout").index[2]').click()
+        self.find(By.ID, 'com.xueqiu.android:id/post_status').click()
+        self.find(By.ID, 'com.xueqiu.android:id/home_search').click()

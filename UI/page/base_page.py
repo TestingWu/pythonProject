@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 class BasePage:
     _driver: WebDriver
-    _black_list = [(By.ID, 'com.baidu.searchbox:id/upscreen_rl_close')]
+    _black_list = [(By.ID, 'com.xueqiu.android:id/iv_action_back')]
 
     def __init__(self, driver: WebDriver = None):
         self._driver = driver

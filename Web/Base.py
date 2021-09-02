@@ -34,3 +34,11 @@ class Base():
 # java -jar appcrawler-2.4.0-jar-with-dependencies.jar
 
 # 上传到GitHub上去需要push上去： git push -u origin main
+
+# WebView页面就需要切换上下文  做法就很切换窗口类似
+# https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/web/chromedriver.md  网页app  chromedriver
+# chrome://inspect（在网页中查找手机网页得定位地址）
+
+
+# adb shell cat /proc/net/unix lgrep webview     获取所以webview得进程
+# adb shell ps lgrep 1136  查看进程得应用

@@ -21,7 +21,7 @@ class Address(BasePage):
         elements = self.finds(By.CSS_SELECTOR, '.member_colRight_memberTable_td')
         list = [element.get_attribute('title') for element in elements]
         return list
-        # self.wait_for(By.CSS_SELECTOR, './ww_checkbox')
+        # self.wait_for((By.CSS_SELECTOR, './ww_checkbox'))
         # cur_page, total_page = self.update_page()
         # while True:
         #     elements = self.finds(By.CSS_SELECTOR, '.member_colRight_memberTable_td:nth-child(2)')

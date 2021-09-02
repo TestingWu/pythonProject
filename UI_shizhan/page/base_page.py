@@ -104,7 +104,7 @@ class BasePage:
 
         '''序列替换'''
         raw = json.dumps(steps)
-        for key,value in self._params.items():
+        for key, value in self._params.items():
             raw = raw.replace(f'${{{key}}}', value)  # ${+key+}
         steps = json.loads(raw)
 

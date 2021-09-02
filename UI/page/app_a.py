@@ -6,8 +6,8 @@ from UI.page.main import Main
 
 
 class App(BasePage):
-    _package = 'com.baidu.searchbox'
-    _activity = 'com.baidu.searchbox.MainActivity'
+    _package = 'com.xueqiu.android'
+    _activity = 'com.xueqiu.android.common.GeneralNoticeActivity'
     def start(self):
         if self._driver is None:
             desired_caps = dict()
